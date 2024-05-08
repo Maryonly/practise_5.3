@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Practical5.3</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box_container">
+            <div class="const">
+                <h1 class="title">КОНСТАНТИ</h1>
+                <div class="list_box">
+                    <ul>
+                        <div class="list">
+                        <p>Значення константи e = <span id="e_const"></span></p>
+                        <p>Значення константи π = <span id="pi_const"></span></p>
+                        <p>Десятковий логарифм постійної Ейлера (e) = <span id="log_e_dec"></span></p>
+                        <p>Двійковий логарифм постійної Ейлера (e) = <span id="log_e_bin"></span></p>
+                        <p>Натуральний логарифм числа 10 lg10 = <span id="log_10"></span></p>
+                        <p>Натуральний логарифм числа 2 lg2 = <span id="log_2"></span></p>
+                        <p>Корінь квадратний із двох √2= <span id="sqrt_2"></span></p>
+                        <p>Корінь квадратний з однієї другої 1/√2 = <span id="sqrt_half"></span></p>
+                        </div>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="function">
+                <h1 class="title">ФУНКЦІЇ</h1>
+                <div class="list_box">
+                    <ul>
+                        <div class="list">
+                        <p>Результат округлення числа 1,00123 у більшу сторону: y = <span id="ceil_1_00123"></span></p>
+                        <p>Результат округлення числа -3.1234 у більшу сторону: y = <span id="ceil_-3_1234"></span></p>
+                        <p>Результат округлення числа 1,00123 у меншу сторону: y = <span id="floor_1_00123"></span></p>
+                        <p>Результат округлення числа -3.1234 у меншу сторону: y = <span id="floor_-3_1234"></span></p>
+                        <p>Результат округлення числа 1,44 за правилами арифметики: y = <span id="round_1_44"></span></p>
+                        </div>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="rand">
+                <h1 class="title">ГЕНЕРАТОР ВИПАДКОВИХ ЧИСЕЛ</h1>
+                <div class="rand_box">
+                    <p class="rand_text">Формування випадкових чисел в інтервалі [0;1]: y = <span id="random_number"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>       
+
+    <script>
+        // константи
+        document.getElementById('e_const').textContent = Math.E;
+        document.getElementById('pi_const').textContent = Math.PI;
+        document.getElementById('log_e_dec').textContent = Math.log10(Math.E);
+        document.getElementById('log_e_bin').textContent = Math.log2(Math.E);
+        document.getElementById('log_10').textContent = Math.log10(10);
+        document.getElementById('log_2').textContent = Math.log2(2);
+        document.getElementById('sqrt_2').textContent = Math.sqrt(2);
+        document.getElementById('sqrt_half').textContent = Math.sqrt(0.5);
+
+        // функції
+        document.getElementById('ceil_1_00123').textContent = Math.ceil(1.00123);
+        document.getElementById('ceil_-3_1234').textContent = Math.ceil(-3.1234);
+        document.getElementById('floor_1_00123').textContent = Math.floor(1.00123);
+        document.getElementById('floor_-3_1234').textContent = Math.floor(-3.1234);
+        document.getElementById('round_1_44').textContent = Math.round(1.44);
+        
+        // генератор
+        document.getElementById('random_number').textContent = Math.random();
+    </script>
+</body>
+</html>

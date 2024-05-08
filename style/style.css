@@ -1,0 +1,111 @@
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1920px;
+    max-height: 1080px;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgb(215, 249, 159);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .box_container {
+    padding: 6.89% 0% 6.89% 0%;
+  }
+  
+  .const,.function {
+    display: inline-block; 
+    width: 30%; 
+    margin: 160px; 
+  }
+  .function {
+    /* width: 720px;
+    height: 450px; */
+    padding-top: -120px;
+  }
+  .const {
+    margin-right: 30px;
+  }
+
+  .const .list_box_const .list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .const .list_box_const .list .list_const_column {
+    width: 45%;
+  }
+  
+  .title {
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    width: 720px;
+    background-color: rgb(14, 137, 0);
+    color: white;
+  }
+  
+  .list_box {
+    border-radius: 0px 0px 15px 15px;
+    list-style: none;
+    padding: 1% 0% 1% 0%;
+    width: 720px;
+    background-color: rgb(136, 255, 100);
+  }
+  
+  .list {
+    width: 90%;
+    padding: 15px;
+    margin: 20px;
+    font-size: 22px;
+    background-color: white;
+    line-height: 38px;
+    border: 1px solid black;
+    border-radius: 15px;
+  }
+  
+  .function.list_box {
+    width: 720px;
+    height: 550px;
+  }
+  
+  .const.list_box {
+    width: 720px;
+    max-height: 450px;
+  }
+  
+  .rand {
+    margin-top: 30px; 
+    text-align: center; 
+  }
+  
+  .rand_box {
+    width: 720px;
+    border-radius: 0px 0px 15px 15px;
+    list-style: none;
+    max-width: 720px;
+    max-height: 80px;
+    background-color: rgb(136, 255, 100);
+    padding: 1% 0% 1% 0%;
+  }
+  
+  .rand_text {
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    line-height: 35px;
+  }
+
+
+  
+ 
